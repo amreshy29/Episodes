@@ -4,7 +4,7 @@ gem 'rails', '~> 5.0.0'
 gem 'pg'
 gem 'pry-rails'
 gem 'watir'
-gem 'rack-cors'
+gem 'rack-cors', '>= 1.0.5'
 
 gem 'algoliasearch'
 

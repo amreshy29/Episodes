@@ -100,7 +100,8 @@ GEM
       pry (>= 0.9.10)
     puma (3.6.0)
     rack (2.0.1)
-    rack-cors (0.4.0)
+    rack-cors (1.0.6)
+      rack (>= 1.6.0)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (5.0.0)
@@ -189,7 +190,7 @@ DEPENDENCIES
   pg
   pry-rails
   puma (~> 3.0)
-  rack-cors
+  rack-cors (>= 1.0.5)
   rails (~> 5.0.0)
   sass-rails (~> 5.0)
   spring
@@ -200,4 +201,4 @@ DEPENDENCIES
   web-console
 
 BUNDLED WITH
-   1.11.2
+   1.17.3
