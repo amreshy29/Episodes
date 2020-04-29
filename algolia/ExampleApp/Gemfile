@@ -6,7 +6,7 @@ gem 'pry-rails'
 gem 'watir'
 gem 'rack-cors'
 
-gem 'algoliasearch'
+gem 'algoliasearch', '>= 1.10.0'
 
 gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
