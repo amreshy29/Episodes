@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.2.2'
 
-gem 'rails', '~> 5.0.0'
+gem 'rails', '~> 6.0.3', '>= 6.0.3.5'
 gem 'pg'
 gem 'puma', '~> 3.0'
 gem 'pry-rails'
